@@ -1,0 +1,39 @@
+#track-details {
+	display: flex;
+	background-color: gray;
+	padding: 1rem;
+	margin: 1rem;
+	border-radius: 1rem;
+}
+
+#album-cover {
+	width: 10rem;
+	height: 10rem;
+	background-color: aquamarine;
+	border-radius: 0.5rem;
+}
+
+#track-info {
+	display: flex;
+	flex-direction: column;
+	background-color: yellow;
+	margin-left: 1rem;
+}
+
+#track-title {
+	background-color: red;
+	font-size: 20pt;
+	margin: 0;
+}
+
+#track-artist {
+	background-color: blue;
+	font-size: 15pt;
+	margin: 0;
+}
+
+#track-album {
+	background-color: green;
+	font-size: 10pt;
+	margin: 0;
+}
