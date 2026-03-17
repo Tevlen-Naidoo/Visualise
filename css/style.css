@@ -1,6 +1,12 @@
 html, body {
+	display: flex;
+	flex-direction: column;
+
 	margin: 0;
-	display: block;
+
+	width: 100vw;
+	height: 100vh;
+
 	overflow: hidden;
 }
 
@@ -11,7 +17,9 @@ html, body {
 	border-radius: 1rem;
 	gap: 1rem;
 
-	background-color: gray;
+	background: rgba(0, 0, 0, 0.3);
+
+	margin-top: auto;
 }
 
 #album-cover {
@@ -99,5 +107,10 @@ html, body {
 
 	z-index: -1;
 
-	background-color: lime;
+	background-color: palegreen;
+}
+
+.glass {
+	backdrop-filter: blur(5rem);
+	-webkit-backdrop-filter: blur(5rem);
 }
