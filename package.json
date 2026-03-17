@@ -1,0 +1,27 @@
+{
+  "name": "visualise",
+  "version": "1.0.0",
+  "description": "A web-based visualiser for Spotify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/scripts/main.ts --bundle --outfile=dist/bundle.js",
+    "watch": "esbuild src/scripts/main.ts --bundle --outfile=dist/bundle.js --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tevlen-Naidoo/Visualise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Tevlen-Naidoo/Visualise/issues"
+  },
+  "homepage": "https://github.com/Tevlen-Naidoo/Visualise#readme",
+  "devDependencies": {
+    "esbuild": "^0.27.4"
+  }
+}

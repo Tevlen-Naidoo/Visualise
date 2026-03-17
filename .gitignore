@@ -1,3 +1,7 @@
 # For Development
 
 .env
+
+# Node
+
+node_modules/
