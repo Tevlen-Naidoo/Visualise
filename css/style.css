@@ -1,39 +1,103 @@
+html, body {
+	margin: 0;
+	display: block;
+	overflow: hidden;
+}
+
 #track-details {
 	display: flex;
-	background-color: gray;
 	padding: 1rem;
 	margin: 1rem;
 	border-radius: 1rem;
+	gap: 1rem;
+
+	background-color: gray;
 }
 
 #album-cover {
 	width: 10rem;
 	height: 10rem;
-	background-color: aquamarine;
 	border-radius: 0.5rem;
+
+	background-color: aquamarine;
 }
 
 #track-info {
 	display: flex;
 	flex-direction: column;
+	
 	background-color: yellow;
-	margin-left: 1rem;
 }
 
 #track-title {
-	background-color: red;
 	font-size: 20pt;
 	margin: 0;
+
+	background-color: red;
 }
 
 #track-artist {
-	background-color: blue;
 	font-size: 15pt;
 	margin: 0;
+
+	background-color: blue;
 }
 
 #track-album {
-	background-color: green;
 	font-size: 10pt;
 	margin: 0;
+
+	background-color: green;
+}
+
+#track-scrubber {
+	display: flex;
+	flex-direction: column;
+	width: 20rem;
+
+	background-color: white;
+}
+
+#track-time {
+	display: flex;
+}
+
+#time-total {
+	margin-left: auto;
+}
+
+#track-controls {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+
+#controls {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+
+#controls > img {
+	width: 2rem;
+	height: 2rem;
+	overflow: hidden;
+
+	background-color: purple;
+}
+
+#scene {
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	width: 100vw;
+	height: 100vh;
+
+	z-index: -1;
+
+	background-color: lime;
 }
